@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "src": "^/\\.well-known/.*",
+      "headers": {
+        "cache-control": "public, max-age=3600"
+      }
+    }
+  ]
+}
